@@ -22,7 +22,7 @@ def over_tel_cislo(tel_cislo):
 
 over_tel_cislo(tel_cislo)
 
-sms_zprava = str(input("2 Zadej text SMS/ zpoplatnena 3 Kc za 5 slov: "))
+sms_zprava = str(input("2 Zadej text SMS/ zpoplatnena 3 Kc za zapocatych 180 slov: "))
 def vypocet_ceny_sms(sms_zprava):
     delka_zpravy = int(len(sms_zprava))
     print(f"pri delce zpravy {delka_zpravy} ")
