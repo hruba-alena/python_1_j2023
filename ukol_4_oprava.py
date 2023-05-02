@@ -42,7 +42,7 @@ def vypocet_ceny_sms(sms_zprava):
         print(f"cena sms s {len(sms_zprava)} znaky je {cena_sms} ")
     else:
         
-        cena_sms = int(((delka_zpravy-1)/5)+1)*3
+        cena_sms = int(((delka_zpravy-1)/180)+1)*3
         print(f"cena sms s {len(sms_zprava)} znaky je {cena_sms} ")
     return cena_sms 
 
